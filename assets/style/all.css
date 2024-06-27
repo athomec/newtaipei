@@ -16232,15 +16232,16 @@ table.footable-details {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse; }
+  @media (max-width: 576px) {
+    table.footable,
+    table.footable-details {
+      font-size: 0.9rem; } }
 
 table.footable-details {
   margin-bottom: 0; }
 
 table.footable-hide-fouc {
   display: none; }
-
-table > tbody > tr > td > span.footable-toggle {
-  margin-right: 8px; }
 
 table > tbody > tr > td > span.footable-toggle.last-column {
   display: inline-block;
@@ -16256,6 +16257,9 @@ table.table-condensed > tbody > tr > td > span.footable-toggle {
 table.footable-details > tbody > tr > th:nth-child(1) {
   min-width: 40px;
   width: 100px; }
+  @media (max-width: 576px) {
+    table.footable-details > tbody > tr > th:nth-child(1) {
+      width: 94px; } }
 
 table.footable-details > tbody > tr > td:nth-child(2) {
   word-break: break-all; }
@@ -16643,6 +16647,9 @@ table.footable-editing.footable-editing-always-show button.footable-add {
     text-align: center;
     border-bottom: 1px solid #D1EBFF;
     padding: 12px; }
+    @media (max-width: 576px) {
+      .footable-header th {
+        padding: 12px 8px; } }
   .footable tbody tr {
     cursor: pointer;
     vertical-align: middle; }
@@ -16651,6 +16658,9 @@ table.footable-editing.footable-editing-always-show button.footable-add {
   .footable tbody td {
     text-align: center;
     padding: 24px 16px; }
+    @media (max-width: 576px) {
+      .footable tbody td {
+        padding: 16px 8px; } }
   .footable tfoot td {
     background: none; }
 
@@ -17394,8 +17404,6 @@ table.footable-editing.footable-editing-always-show button.footable-add {
           min-width: 75px;
           text-align: right;
           flex-shrink: 0; } }
-    .table-rwd > tbody > tr > td[data-th="none"]:before {
-      display: none; }
   .table-rwd a {
     color: #86C7F8; }
     .table-rwd a:hover {
@@ -17415,6 +17423,20 @@ table.footable-editing.footable-editing-always-show button.footable-add {
     @media (max-width: 1200px) {
       .table-rwd.table-striped > tbody > tr > td {
         border-bottom: 1px solid #86C7F8 !important; } }
+
+.table-footable th[data-th="none"] {
+  width: 100px; }
+  @media (max-width: 1700px) {
+    .table-footable th[data-th="none"] {
+      width: 158px !important; } }
+  @media (max-width: 523px) {
+    .table-footable th[data-th="none"] {
+      width: 140px !important; } }
+  .table-footable th[data-th="none"] .fooicon-sort {
+    display: none; }
+
+.table-footable td[data-th="none"]:before {
+  display: none; }
 
 .table-rwd-multi {
   min-width: 100%;
@@ -17522,7 +17544,28 @@ table.footable-editing.footable-editing-always-show button.footable-add {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  background: #FFBF6B;
+  border: 1px solid #FF8000;
+  border-radius: 10px;
+  color: #212529;
+  padding: 6px 12px;
+  font-weight: 500;
+  width: 85px; }
+  @media (max-width: 767px) {
+    .table-link {
+      padding: 4px 8px;
+      width: 75px;
+      font-size: 0.9rem; }
+      .table-link img {
+        width: 20px; } }
+  @media (max-width: 523px) {
+    .table-link {
+      width: 50px; }
+      .table-link img {
+        display: none; } }
+  .table-link:hover {
+    background: #ffb452; }
 
 .table-toggle {
   cursor: pointer; }
@@ -18731,6 +18774,23 @@ input[data-bs-toggle="modal"] {
   font-size: 1.25rem;
   padding: 12px 0;
   margin-bottom: 0; }
+
+.footable-toggle {
+  width: 40px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 0 !important;
+  height: 38px !important; }
+  @media (max-width: 576px) {
+    .footable-toggle {
+      width: 32px; } }
 
 /* ---------------------登入頁開始------------------------*/
 .login {
