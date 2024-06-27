@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" viewBox="0 0 12 12">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_390" data-name="Rectangle 390" width="12" height="12" fill="#ff8000"/>
+    </clipPath>
+  </defs>
+  <g id="ic-outerlink" clip-path="url(#clip-path)">
+    <path id="Path_508" data-name="Path 508" d="M9.388,1.76h1.4L5.131,7.415a.561.561,0,0,0,0,.792l.45.45a.56.56,0,0,0,.792,0L12.028,3V4.4a.559.559,0,0,0,.56.56h.64a.559.559,0,0,0,.559-.56V.56a.56.56,0,0,0-.56-.56H9.388a.559.559,0,0,0-.56.56V1.2a.559.559,0,0,0,.56.56" transform="translate(-1.788 0)" fill="#ff8000"/>
+    <path id="Path_509" data-name="Path 509" d="M11.44,6.4H10.8a.559.559,0,0,0-.56.56V10.24H1.759V1.76h3.28A.559.559,0,0,0,5.6,1.2V.56A.559.559,0,0,0,5.039,0H1.52A1.521,1.521,0,0,0,0,1.52v8.96A1.52,1.52,0,0,0,1.519,12H10.48A1.527,1.527,0,0,0,12,10.482V6.961a.559.559,0,0,0-.56-.56" transform="translate(0 0)" fill="#ff8000"/>
+  </g>
+</svg>
