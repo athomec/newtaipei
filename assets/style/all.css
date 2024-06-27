@@ -18387,7 +18387,7 @@ input[type="file"] {
       top: 70px;
       width: 100%;
       border-radius: 0;
-      z-index: 100;
+      z-index: 1000;
       -webkit-box-shadow: 0 3px 5px #ced4da;
               box-shadow: 0 3px 5px #ced4da; } }
   @media (max-width: 576px) {
@@ -19853,10 +19853,9 @@ tr.editing > * {
     text-align: center; }
 
 .tab-content {
-  border: 1px solid #EFEFEF;
-  -webkit-box-shadow: 0 0 3px #adb5bd;
-          box-shadow: 0 0 3px #adb5bd;
-  border-radius: 0 10px 10px 10px; }
+  border: 1px solid #D1EBFF;
+  background: #fff;
+  border-top: none; }
   @media (max-width: 375px) {
     .tab-content {
       border-radius: 10px; } }
