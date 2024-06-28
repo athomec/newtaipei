@@ -18778,8 +18778,7 @@ input[type="file"] {
         bottom: auto;
         top: 210px;
         font-size: 0.8rem;
-        background: url("../images/ic-gotop-mobile.svg") no-repeat center 5px #70B4E8;
-        background-size: 40px; } }
+        background: url("../images/ic-gotop-mobile.svg") no-repeat center 5px #70B4E8; } }
     .footer-gotop:hover {
       background-color: #0F76BD; }
   .footer .key {
