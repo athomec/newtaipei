@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <g id="ic-progress" transform="translate(-3254 -1499)">
+    <g id="pending_actions_24dp_5F6368" transform="translate(3256 1500.671)">
+      <rect id="Rectangle_496" data-name="Rectangle 496" width="68" height="68" transform="translate(0 0.329)" fill="none"/>
+      <path id="Path_704" data-name="Path 704" d="M41.012,32.318A14.235,14.235,0,1,0,55.247,46.553,14.24,14.24,0,0,0,41.012,32.318Zm4.7,20.926-6.121-6.121V38.012h2.847v7.943L47.7,51.222ZM43.859,6.694H34.805a8.507,8.507,0,0,0-16.057,0H9.694A5.711,5.711,0,0,0,4,12.388V55.094a5.711,5.711,0,0,0,5.694,5.694h17.4a19.2,19.2,0,0,1-4.043-5.694H9.694V12.388h5.694v8.541H38.165V12.388h5.694V26.851a20.016,20.016,0,0,1,5.694,1.708V12.388A5.711,5.711,0,0,0,43.859,6.694ZM26.776,12.388a2.847,2.847,0,1,1,2.847-2.847A2.855,2.855,0,0,1,26.776,12.388Z" transform="translate(7.388 1.847)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_501" data-name="Rectangle 501" width="72" height="72" transform="translate(3254 1499)" fill="none"/>
+  </g>
+</svg>

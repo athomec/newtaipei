@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <g id="ic-folder" transform="translate(-3038 -1500)">
+    <g id="フォルダのアイコン素材" transform="translate(3039 1447.295)">
+      <path id="Path_700" data-name="Path 700" d="M28.737,69.337l-8.842-6.632H0v44.13L6.632,95.682V75.968H53.053v4.421h6.631V69.337Z" fill="#fff"/>
+      <path id="Path_701" data-name="Path 701" d="M76.655,224.573,65.623,244.721l-4.708,9.006a2.083,2.083,0,0,1-1.47,1.007H8.6a1.05,1.05,0,0,1-1.194-.981v-.026l15.74-29.154c.254-.492.411-.786.928-.786H75.728A.875.875,0,0,1,76.655,224.573Z" transform="translate(-6.392 -138.976)" fill="#fff"/>
+    </g>
+    <rect id="ic-folder-2" data-name="ic-folder" width="72" height="72" transform="translate(3038 1500)" fill="none"/>
+  </g>
+</svg>
